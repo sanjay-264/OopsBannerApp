@@ -1,11 +1,3 @@
-/**
- * OOPS Banner App
- *
- * UC2: Display "OOPS" in a banner format using spaces and '*' characters.
- *
- * @author
- * @version 2.0
- */
 public class OOPSBannerApp {
     public static void main(String[] args) {
         String line1 = "   *****           *****         *******       ******* ";
