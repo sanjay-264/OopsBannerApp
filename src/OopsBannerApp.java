@@ -1,20 +1,12 @@
-/**
- * OOPS Banner App
- *
- * UC2: Display "OOPS" in a banner format using spaces and '*' characters.
- *
- * @author
- * @version 2.0
- */
-public class OOPSBannerApp {
+public class OopsBannerApp {
     public static void main(String[] args) {
-        String line1 = "   *****           *****         *******       ******* ";
-        String line2 = "*         *     *         *    *         *    *         ";
-        String line3 = "*         *     *         *    *         *    *         ";
-        String line4 = "*         *     *         *    * *******       *******";
-        String line5 = "*         *     *         *    *                      *";
-        String line6 = "*         *     *         *    *                      *";
-        String line7 = "   *****           *****       *               *******";
+        String line1 = String.join("", "  *****          *****          *******         ******* ");
+        String line2 = String.join("", "*       *      *       *       *        *      *         ");
+        String line3 = String.join("", "*       *      *       *       *        *      *         ");
+        String line4 = String.join("", "*       *      *       *       *******          *******");
+        String line5 = String.join("", "*       *      *       *       *                        *");
+        String line6 = String.join("", "*       *      *       *       *                        *");
+        String line7 = String.join("", "  *****          *****         *                *******");
 
         System.out.println(line1);
         System.out.println(line2);
